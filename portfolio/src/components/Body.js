@@ -3,7 +3,8 @@ import React from 'react'
 function Body(){
     const style={
         margin:{
-            marginTop:  60
+            marginTop:  60,
+            marginBottom: 200
         },
         font: {
             fontSize: 24

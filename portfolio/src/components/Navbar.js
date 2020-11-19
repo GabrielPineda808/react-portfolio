@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function Heading(){
     const styles ={
@@ -28,10 +29,10 @@ function Heading(){
               <div className="col-md-5 d-flex justify-content-center">
                 <ul className="nav justify-content-end" style={styles.margin}>
                   <li className="nav-item">
-                    <a className="nav-link " style={styles.atag} href="./index.html">About</a>
+                    <a className="nav-link " style={styles.atag} href="./index.html"><Link to={'/'} style={styles.atag}>About</Link></a>
                   </li>
                   <li className="nav-item ">
-                    <a className="nav-link " style={styles.atag} href="./projects.html">Projects</a>
+                    <a className="nav-link " style={styles.atag} href="./projects.html"><Link to={'/projects'} style={styles.atag}>Projects</Link></a>
                   </li>
                   
                 </ul>
